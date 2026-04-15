@@ -1,0 +1,198 @@
+{
+  "class_names": [
+    "daisy",
+    "dandelion",
+    "roses",
+    "sunflowers",
+    "tulips"
+  ],
+  "modelo_a": {
+    "accuracy": 0.6361256544502618,
+    "precision_macro": 0.6460220091680766,
+    "recall_macro": 0.6459856676872083,
+    "f1_macro": 0.6298668673681102,
+    "precision_weighted": 0.6643864469883647,
+    "recall_weighted": 0.6361256544502618,
+    "f1_weighted": 0.6340864660507061,
+    "confusion": [
+      [
+        37,
+        8,
+        3,
+        0,
+        1
+      ],
+      [
+        13,
+        76,
+        3,
+        9,
+        1
+      ],
+      [
+        8,
+        4,
+        46,
+        2,
+        7
+      ],
+      [
+        4,
+        13,
+        8,
+        41,
+        4
+      ],
+      [
+        8,
+        10,
+        29,
+        4,
+        43
+      ]
+    ],
+    "report": {
+      "daisy": {
+        "precision": 0.5285714285714286,
+        "recall": 0.7551020408163265,
+        "f1-score": 0.6218487394957983,
+        "support": 49.0
+      },
+      "dandelion": {
+        "precision": 0.6846846846846847,
+        "recall": 0.7450980392156863,
+        "f1-score": 0.7136150234741784,
+        "support": 102.0
+      },
+      "roses": {
+        "precision": 0.5168539325842697,
+        "recall": 0.6865671641791045,
+        "f1-score": 0.5897435897435898,
+        "support": 67.0
+      },
+      "sunflowers": {
+        "precision": 0.7321428571428571,
+        "recall": 0.5857142857142857,
+        "f1-score": 0.6507936507936508,
+        "support": 70.0
+      },
+      "tulips": {
+        "precision": 0.7678571428571429,
+        "recall": 0.4574468085106383,
+        "f1-score": 0.5733333333333334,
+        "support": 94.0
+      },
+      "accuracy": 0.6361256544502618,
+      "macro avg": {
+        "precision": 0.6460220091680766,
+        "recall": 0.6459856676872083,
+        "f1-score": 0.6298668673681102,
+        "support": 382.0
+      },
+      "weighted avg": {
+        "precision": 0.6643864469883647,
+        "recall": 0.6361256544502618,
+        "f1-score": 0.6340864660507061,
+        "support": 382.0
+      }
+    }
+  },
+  "modelo_b": {
+    "accuracy": 0.8586387434554974,
+    "precision_macro": 0.8529476405946994,
+    "recall_macro": 0.8634639069981755,
+    "f1_macro": 0.856740586471782,
+    "precision_weighted": 0.8621186251383357,
+    "recall_weighted": 0.8586387434554974,
+    "f1_weighted": 0.8587953660062021,
+    "confusion": [
+      [
+        42,
+        2,
+        0,
+        1,
+        4
+      ],
+      [
+        9,
+        86,
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        58,
+        2,
+        7
+      ],
+      [
+        0,
+        0,
+        1,
+        66,
+        3
+      ],
+      [
+        0,
+        3,
+        13,
+        2,
+        76
+      ]
+    ],
+    "report": {
+      "daisy": {
+        "precision": 0.8235294117647058,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.84,
+        "support": 49.0
+      },
+      "dandelion": {
+        "precision": 0.945054945054945,
+        "recall": 0.8431372549019608,
+        "f1-score": 0.8911917098445595,
+        "support": 102.0
+      },
+      "roses": {
+        "precision": 0.8055555555555556,
+        "recall": 0.8656716417910447,
+        "f1-score": 0.8345323741007195,
+        "support": 67.0
+      },
+      "sunflowers": {
+        "precision": 0.8461538461538461,
+        "recall": 0.9428571428571428,
+        "f1-score": 0.8918918918918919,
+        "support": 70.0
+      },
+      "tulips": {
+        "precision": 0.8444444444444444,
+        "recall": 0.8085106382978723,
+        "f1-score": 0.8260869565217391,
+        "support": 94.0
+      },
+      "accuracy": 0.8586387434554974,
+      "macro avg": {
+        "precision": 0.8529476405946994,
+        "recall": 0.8634639069981755,
+        "f1-score": 0.856740586471782,
+        "support": 382.0
+      },
+      "weighted avg": {
+        "precision": 0.8621186251383357,
+        "recall": 0.8586387434554974,
+        "f1-score": 0.8587953660062021,
+        "support": 382.0
+      }
+    }
+  },
+  "modelo_b_early_stopping_stopped_epoch": 9,
+  "dropout_sweep": [],
+  "arquivos_gerados": [
+    "flower-photos\\resultados\\loss_a_vs_b.png",
+    "flower-photos\\resultados\\cm_modelo_a.png",
+    "flower-photos\\resultados\\cm_modelo_b.png"
+  ]
+}
