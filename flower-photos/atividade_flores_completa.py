@@ -38,7 +38,8 @@ FAST_TRAIN_BATCHES = 0
 FAST_VAL_BATCHES = 0
 FAST_TEST_BATCHES = 0
 
-OUT_DIR = pathlib.Path("flower-photos") / "resultados"
+BASE_DIR = pathlib.Path(__file__).resolve().parent
+OUT_DIR = BASE_DIR / "resultados"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
