@@ -188,6 +188,11 @@
       }
     }
   },
+  "modelo_b_early_stopping": {
+    "head_epoch": 6,
+    "finetune_epoch": 3,
+    "total_epoch": 9
+  },
   "modelo_b_early_stopping_stopped_epoch": 9,
   "dropout_sweep": [
     {
