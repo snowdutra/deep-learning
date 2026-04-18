@@ -191,8 +191,8 @@
   "modelo_b_early_stopping_stopped_epoch": 9,
   "dropout_sweep": [],
   "arquivos_gerados": [
-    "flower-photos\\resultados\\loss_a_vs_b.png",
-    "flower-photos\\resultados\\cm_modelo_a.png",
-    "flower-photos\\resultados\\cm_modelo_b.png"
+    "c:\\Users\\gustavo.telles\\Desktop\\deep-learning\\flower-photos\\resultados\\loss_a_vs_b.png",
+    "c:\\Users\\gustavo.telles\\Desktop\\deep-learning\\flower-photos\\resultados\\cm_modelo_a.png",
+    "c:\\Users\\gustavo.telles\\Desktop\\deep-learning\\flower-photos\\resultados\\cm_modelo_b.png"
   ]
 }
